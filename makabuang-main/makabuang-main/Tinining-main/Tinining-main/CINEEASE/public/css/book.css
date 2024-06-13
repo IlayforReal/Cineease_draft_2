@@ -1,0 +1,124 @@
+/* book.css */
+
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: #f3f4f6;
+    color: #4a4a4a;
+}
+
+.movies-container2 {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    gap: 20px;
+    padding: 20px;
+}
+
+.movie-item2 {
+    background-color: #f3f3f3;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none; /* Remove underline from links */
+    color: inherit; /* Inherit text color */
+    transition: transform 0.2s; /* Add a slight hover effect */
+    max-width: 600px; /* Limit the width of the movie item */
+}
+
+.details2 {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.title2 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.description2 {
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.year2 {
+    color: #999;
+}
+
+.booking-container {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    gap: 20px;
+    padding: 20px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 300%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+}
+
+.table-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-top: 20px;
+}
+
+.table-container table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 400px; /* Adjust as needed */
+}
+
+.table-container td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.table-container input {
+    width: 100%;
+    padding: 5px;
+}
+
+/* Additional styles for the booking form */
+.booking-container {
+    margin-top: 20px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; /* Ensure container spans full width */
+}
+
+.proceed-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #3490dc;
+    color: white;
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.proceed-button:hover {
+    background-color: #12344f;
+}

@@ -1,0 +1,65 @@
+/* userdash.css */
+.movies-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.movie-item {
+    background-color: #f3f3f3;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none; /* Remove underline from links */
+    color: inherit; /* Inherit text color */
+    transition: transform 0.2s; /* Add a slight hover effect */
+}
+
+.movie-item:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.movie-item img.poster {
+    width: 100%;
+    height: auto;
+    max-width: 300px; /* Ensure the image does not stretch beyond a certain width */
+    border-radius: 10px;
+}
+
+.details {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.description {
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.year {
+    color: #999;
+}
+
+.book-now-button {
+    margin-top: 20px;
+    background-color: orange;
+    color: white;
+    padding: 10px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.book-now-button:hover {
+    background-color: rgb(146, 80, 0);
+}
